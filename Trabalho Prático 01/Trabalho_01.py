@@ -12,7 +12,7 @@ def main():
     print("Digite o nome do arquivo a ser lido:")
     nome = input()
     
-    #-----abertura e leituraa iniciaia do arquivo
+    #-----abertura e leitura inicial do arquivo
     arquivo = open(nome, 'r')
     n_vertices = int(arquivo.readline())
     n_arcos = int(arquivo.readline())
